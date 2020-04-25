@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap&subset=latin-ext"
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900&display=swap&subset=latin-ext"
         rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/main-navigation.css">
-    <link rel="stylesheet" href="css/social-icon.css">
+    <link rel="stylesheet" href="css/icon.css">
     <link rel="stylesheet" href="css/main-banner.css">
     <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -30,10 +30,61 @@
 </head>
 
 <body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link">
+                    <img src="img/logo.png" alt="Logo" class="main-navigation__logo-image"></a>
+            </div>
+            <ul class="main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="#Home" class="main-navigation__menu-link">
+                        Home
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#Services" class="main-navigation__menu-link">
+                        Services
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#Works" class="main-navigation__menu-link">
+                        Works
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#Contact" class="main-navigation__menu-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button">
+                <img src="img/tiles/navigation.svg" alt="Otwórz / Zamknij nawigację"
+                    class="main-navigation__mobile-button-icon">
+            </button>
+        </div>
+    </nav>
 
-    <h1>
-        Helping Business And Companies Innovate And Transform
-    </h1>
+
+    <main>
+        <section class="section-main-banner">
+            <div class="section-banner-wraper">
+                <h1>
+                    <span>Helping Business And Companies</span><span>Innovate And Transform</span>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore quaerat inventore hic ab
+                    numquam laboriosam commodi, tempore asperiores facilis minus nulla, ut fuga ullam ratione modi dolor
+                    laboriosam commodi, tempore asperiores facilis minus nulla, ut fuga ullam ratione modi dolor nobis
+                    voluptatum. Lorem ipsum dolor sit amet.
+                </p>
+                <button class="main-banner__btn main-banner__btn-start">Start Now</button>
+                <button class="main-banner__btn main-banner__btn-services">Our Services</button>
+            </div>
+        </section>
+    </main>
+
+
 
 </body>
 

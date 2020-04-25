@@ -9,10 +9,13 @@
 /*This defines 1 rem is*/
 /* 10px : 16px */
 html {
+    /* font-size: 10px; */
     font-size: 62.5%;
 }
 
 body {
     box-sizing: border-box;
+    text-align: center;
+    height: 130vh;
 
 }
