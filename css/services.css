@@ -1,0 +1,38 @@
+.services {}
+
+.services-container {
+    margin: 0 auto;
+    margin-top: 14.5rem;
+    margin-bottom: 14.5rem;
+    max-width: 100rem;
+}
+
+.services-small-title {
+    font-size: var(--default-font-size);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.services-header {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-heading);
+    font-weight: 900;
+    line-height: var(--line-height-small);
+    margin-bottom: 3.5rem;
+}
+
+@media (max-width: 767px) {
+    .services-header {
+        font-size: 50px;
+    }
+}
+
+.services-color-letter {
+    color: var(--color-dominant);
+}
+
+.services-paragraph {
+    font-size: var(--default-font-size);
+    color: var(--color-primary-light);
+    line-height: var(--line-height-medium);
+}

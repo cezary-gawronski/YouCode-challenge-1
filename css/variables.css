@@ -16,7 +16,7 @@
     --color-dominant: #fb414e;
     --color-menu: rgba(251, 65, 77, 0.7);
 
-    --color-primary-light: #dfdfdf;
+    --color-primary-light: hsl(0, 0%, 57%);
     --color-white: #fff;
     --color-black: #000;
 
