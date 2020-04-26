@@ -1,13 +1,13 @@
 .services {}
 
-.services-container {
-    margin: 0 auto;
-    margin-top: 14.5rem;
-    margin-bottom: 14.5rem;
-    max-width: 100rem;
+.services-wrapper {
+    max-width: 1000px;
+    text-align: center;
+    margin: 145px auto;
 }
 
 .services-small-title {
+    font-family: var(--font-primary);
     font-size: var(--default-font-size);
     text-transform: uppercase;
     font-weight: 700;
@@ -18,7 +18,7 @@
     font-size: var(--font-size-heading);
     font-weight: 900;
     line-height: var(--line-height-small);
-    margin-bottom: 3.5rem;
+    margin-bottom: 35px;
 }
 
 @media (max-width: 767px) {
@@ -32,7 +32,10 @@
 }
 
 .services-paragraph {
+    font-family: var(--font-primary);
     font-size: var(--default-font-size);
     color: var(--color-primary-light);
     line-height: var(--line-height-medium);
+    padding: 0 50px;
+    font-weight: 300;
 }

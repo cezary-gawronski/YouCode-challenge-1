@@ -21,21 +21,16 @@
     --color-black: #000;
 
     /* FONT SIZES */
-    --default-font-size: 1.6rem;
-    --font-size-heading: 6rem;
-    --font-size-medium: 2rem;
-    --font-size-small: 1.2rem;
-    --font-size-menu: 1.7rem;
+    --default-font-size: 16px;
+    --font-size-heading: 60px;
+    --font-size-heading_2: 32px;
+    --font-size-medium: 20px;
+    --font-size-small: 12px;
+    --font-size-menu: 17px;
 
     /* Paragraph format */
     --line-height-small: 1.2;
     --line-height-medium: 1.6;
     --line-height-large: 1.8;
-
-
-    /* grid */
-    --grid-width: 114rem;
-    --gutter-vertical: 8rem;
-    --gutter-horizontal: 6rem;
 
 }
