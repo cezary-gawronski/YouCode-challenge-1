@@ -3,7 +3,7 @@
 .services-wrapper {
     max-width: 1000px;
     text-align: center;
-    margin: 145px auto;
+    margin: var(--margin-section) auto;
 }
 
 .services-small-title {

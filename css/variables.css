@@ -10,6 +10,8 @@
     /* responsive points */
     --fhd-width: 1920px;
     --desktop-width: 1270px;
+    --desktop-width-large: 1770px;
+    --margin-section: 145px;
 
     /* colors */
     --color-primary: #202B30;

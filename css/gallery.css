@@ -1,0 +1,40 @@
+.hiden-header {
+    display: none;
+}
+
+.gallery {
+    margin: var(--margin-section) auto;
+    max-width: var(--desktop-width-large);
+
+}
+
+.gallery-wrapper {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+    gap: 10px;
+}
+
+.gallery-box {
+    padding-top: calc(100% * 2 / 2);
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.gallery-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
