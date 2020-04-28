@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/main-navigation.css">
-    <link rel="stylesheet" href="css/icon.css">
     <link rel="stylesheet" href="css/main-banner.css">
     <link rel="stylesheet" href="css/tiles.css">
     <link rel="stylesheet" href="css/services.css">
@@ -40,9 +39,10 @@
         <div class="main-navigation__inner">
             <div class="main-navigation__logo">
                 <a href="#" class="main-navigation__logo-link">
-                    <img src="img/logo.png" alt="Logo" class="main-navigation__logo-image"></a>
+                    <img src="img/logo.png" alt="Logo" class="main-navigation__logo-image">
+                </a>
             </div>
-            <ul class="main-navigation__menu">
+            <ul class="main-navigation__menu js-main-navigation__menu">
                 <li class="main-navigation__menu-item">
                     <a href="#Home" class="main-navigation__menu-link">
                         Home
@@ -64,21 +64,26 @@
                     </a>
                 </li>
             </ul>
-            <button class="main-navigation__mobile-button">
-                <img src="img/tiles/navigation.svg" alt="Otwórz / Zamknij nawigację"
-                    class="main-navigation__mobile-button-icon">
+            <button class="main-navigation__hamburger-btn js-main-navigation__mobile-button">
+                <!-- <img src="img/tiles/navigation.svg" alt="Otwórz / Zamknij nawigację"
+                    class="main-navigation__mobile-button-icon"> -->
             </button>
         </div>
     </nav>
-
+    <script src="js/main-navigation.js"></script>
 
     <main>
         <section class="main-banner">
-            <div class="main-banner-wraper">
-                <h1 class="main-banner-header">
-                    <span>Helping Business And Companies</span><span>Innovate And Transform</span>
+            <div class="main-banner__wrapper">
+                <h1 class="main-banner__header">
+                    <span class="header-wrap-large">
+                        Helping Business And&nbsp;Companies
+                    </span>
+                    <span class="header-wrap-large">
+                        Innovate And&nbsp;Transform
+                    </span>
                 </h1>
-                <p class="main-banner-paragraph">
+                <p class="main-banner__paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore quaerat inventore hic ab
                     numquam laboriosam commodi, tempore asperiores facilis minus nulla, ut fuga ullam ratione modi dolor
                     laboriosam commodi, tempore asperiores facilis minus nulla, ut fuga ullam ratione modi dolor nobis
