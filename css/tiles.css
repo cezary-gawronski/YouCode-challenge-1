@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-top: -60px; */
 }
 
 .tiles-box {
@@ -30,7 +29,6 @@
         margin-right: 7vw;
     }
 }
-
 
 
 .tiles-box:hover {
