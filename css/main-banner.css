@@ -126,7 +126,7 @@
 
 @media (max-width: 767px) {
     .main-banner__btn {
-        width: calc((95vw / 2) - 10vw);
+        max-width: calc((95vw / 2) - 10vw);
         margin-left: 3vw;
         margin-right: 3vw;
     }

@@ -14,9 +14,6 @@
     justify-content: center;
     align-items: flex-start;
     flex: 1;
-    /* width: 410px;
-    height: 400px;
-    */
     padding: 50px;
     margin: 0px 10px 10px 10px;
     background-color: var(--color-primary);
@@ -24,9 +21,13 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .tiles-box {
         flex: auto;
+        margin-top: 0vw;
+        margin-bottom: 3vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
     }
 }
 
