@@ -8,6 +8,11 @@
     background-position: center center;
 }
 
+@media (max-width: 767px) {
+    .main-banner {
+        background-image: url(../img/background_mobile.jpg);
+    }
+}
 
 .main-banner::before {
     content: "";
