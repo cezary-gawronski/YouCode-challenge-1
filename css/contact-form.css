@@ -86,18 +86,11 @@
 }
 
 
-.form-contact__field {}
-
 .form-contact__field:focus {
     /* box-shadow: 0 0 8px var(--color-dominant); */
     border-color: transparent;
 }
 
-@media (max-width: 767px) {
-    .form-contact__fields {
-        /* width: 100vw; */
-    }
-}
 
 .form-contact__submit-buton {
     display: block;
