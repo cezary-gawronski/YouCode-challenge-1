@@ -23,7 +23,7 @@
 
 .main-banner__wrapper {
     margin: 0 auto;
-    margin-top: 20vh;
+    margin-top: 18vh;
     margin-bottom: 15vh;
     max-width: 900px;
     text-align: center;
@@ -31,9 +31,9 @@
 }
 
 
-@media (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 767px) {
     .main-banner__wrapper {
-        margin-bottom: 18vh;
+        margin-bottom: 30vh;
     }
 }
 
