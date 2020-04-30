@@ -5,7 +5,7 @@
     /* Arial  */
     --font-primary: 'Roboto', sans-serif;
     --font-heading: 'Source Sans Pro', sans-serif;
-    --font-form: 'Arial';
+    --font-form: 'Arial', sans-serif;
 
     /* responsive points */
     --fhd-width: 1920px;
