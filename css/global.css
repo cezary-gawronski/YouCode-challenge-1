@@ -13,6 +13,10 @@ li {
     padding: 0;
 }
 
+/* :focus {
+    outline: 0;
+} */
+
 html {
     scroll-behavior: smooth;
 }

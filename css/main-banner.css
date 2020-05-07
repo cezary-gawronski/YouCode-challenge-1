@@ -79,7 +79,8 @@
     }
 }
 
-.main-banner__btn {
+.main-banner__btn:link,
+.main-banner__btn:visited {
     text-decoration: none;
     display: inline-block;
     font-family: var(--font-primary);
@@ -105,8 +106,8 @@
     }
 }
 
-
-.main-banner__btn:hover {
+.main-banner__btn:hover,
+.main-banner__btn:focus {
     background-color: var(--color-dominant);
 }
 

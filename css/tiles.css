@@ -30,13 +30,19 @@
     }
 }
 
+.tiles__link:link,
+.tiles__link:visited {
+    text-decoration: none;
+    color: white;
+}
 
 .tiles__tile:hover {
     background-color: var(--color-dominant);
 }
 
-
-.tiles__tile-icon {}
+.tiles__link:focus .tiles__tile-header {
+    background-color: var(--color-dominant);
+}
 
 .tiles__tile-image {
     height: 60px;
