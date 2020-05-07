@@ -290,13 +290,22 @@
                 </p>
             </div>
 
-            <form class="form-contact__fileds">
-                <input name="name" class="form-contact__field form-contact__field--full-row" required
+            <form class="form-contact__fileds" method="POST">
+                <label for="name"> Your name</label>
+                <input name="name" id="name" class="form-contact__field form-contact__field--full-row" required
                     placeholder="Your Name" autofocus />
-                <input name="company" class="form-contact__field" required placeholder="Company Name" />
-                <input name="email" type="email" class="form-contact__field" required placeholder="e-mail adress" />
+
+                <label for="company">Company name </label>
+                <input name="company" id="company" class="form-contact__field" required placeholder="Company Name" />
+
+                <label for="e-mail"> e-mail adress </label>
+                <input name="e-mail" id="e-mail" type="email" class="form-contact__field" required
+                    placeholder="e-mail adress" />
+
+                <label for="services"> Select option </label>
                 <select class="form-contact__field form-contact__field--full-row" name="services" id="services"
                     required>
+
                     <option selected value="selecOption">
                         Select option
                     </option>
