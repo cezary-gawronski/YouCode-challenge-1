@@ -94,13 +94,18 @@
         padding: 30px 0;
     }
 
+    .main-navigation__menu-item:hover .main-navigation__menu-link {
+        border-bottom: 0px solid var(--color-dominant);
+    }
+
     .main-navigation__menu-link {
         border: 0;
     }
 
-    .main-navigation__menu-item:hover .main-navigation__menu-link {
-        border-bottom: 0px solid var(--color-dominant);
+    .main-navigation__menu-link:focus {
+        outline: 3px solid var(--color-dominant);
     }
+
 }
 
 .main-navigation__hamburger-btn {

@@ -296,39 +296,60 @@
             </div>
 
             <form class="form-contact__fileds" method="POST">
-                <label for="name"> Your name</label>
-                <input name="name" id="name" class="form-contact__field form-contact__field--full-row" required
-                    placeholder="Your Name" />
+                <div class="filed-container">
+                    <label class="labelForm" for="name">Your name</label>
+                    <input name="name" id="name" class="form-contact__field form-contact__field--full-row" required
+                        autofocus />
+                </div>
 
-                <label for="company">Company name </label>
-                <input name="company" id="company" class="form-contact__field" required placeholder="Company Name" />
+                <div class="filed-container">
+                    <div class="filed-container">
+                        <label class="labelForm" for="company">Company name</label>
+                        <input name="company" id="company" class="form-contact__field form-contact__field--full-row"
+                            required />
+                    </div>
 
-                <label for="e-mail"> e-mail adress </label>
-                <input name="e-mail" id="e-mail" type="email" class="form-contact__field" required
-                    placeholder="e-mail adress" />
+                    <div class="filed-container">
+                        <label class="labelForm" for="e-mail">e-mail adress</label>
+                        <input name="e-mail" id="e-mail" type="email"
+                            class="form-contact__field form-contact__field--full-row" required />
+                    </div>
+                </div>
 
-                <label for="servicesForm">Select option</label>
-                <select id="servicesForm" class=" form-contact__field form-contact__field--full-row" name="servicesForm"
-                    required>
-                    <option selected value="">
-                        &nbsp;</option>
-                    <option value="webDesign">
-                        Web Design
-                    </option>
-                    <option value="graphicsDesign">
-                        Graphics Design
-                    </option>
-                    <option value="seoServices">
-                        SEO Services
-                    </option>
-                    <option value="uxConsultation">
-                        UX/UI consultations
-                    </option>
-                </select>
 
-                <textarea placeholder="Describe your projects" class="form-contact__field form-contact__field--full-row"
-                    name="content" required rows="10"></textarea>
-                <button type="submit" value="" class="form-contact__submit-buton">
+
+                <div class="filed-container">
+                    <label class="labelForm" for="servicesForm">Select option</label>
+                    <select id="servicesForm" class="form-contact__field form-contact__field--full-row"
+                        name="servicesForm" required>
+                        <option selected value="">
+                            &nbsp;</option>
+                        <option value="webDesign">
+                            Web Design
+                        </option>
+                        <option value="graphicsDesign">
+                            Graphics Design
+                        </option>
+                        <option value="seoServices">
+                            SEO Services
+                        </option>
+                        <option value="uxConsultation">
+                            UX/UI consultations
+                        </option>
+                    </select>
+                </div>
+
+                <div class="filed-container">
+                    <label class="labelForm" for="textarea">
+                        Describe your projects
+                    </label>
+                    <textarea id="textarea"
+                        class="form-contact__field form-contact__field--full-row form-contact__field-tekstarea"
+                        name="content" required rows="6">
+                    </textarea>
+                </div>
+
+                <button type="submit" value="submit" class="form-contact__submit-buton">
                     Submit
                 </button>
             </form>
@@ -338,8 +359,6 @@
 
 
     </main>
-
-
 
 </body>
 
