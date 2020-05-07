@@ -80,6 +80,8 @@
 }
 
 .main-banner__btn {
+    text-decoration: none;
+    display: inline-block;
     font-family: var(--font-primary);
     font-size: var(--default-font-size);
     color: var(--color-white);

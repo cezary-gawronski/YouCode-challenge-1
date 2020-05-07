@@ -1,4 +1,4 @@
-.tiles {
+.tiles-container {
     max-width: var(--desktop-width);
     margin: 0 auto;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.tiles-box {
+.tiles__tile {
     z-index: 0;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 991px) {
-    .tiles-box {
+    .tiles__tile {
         flex: auto;
         margin-top: 0vw;
         margin-bottom: 3vw;
@@ -31,18 +31,18 @@
 }
 
 
-.tiles-box:hover {
+.tiles__tile:hover {
     background-color: var(--color-dominant);
 }
 
 
-.tiles-box-icon {}
+.tiles__tile-icon {}
 
-.tiles-box-image {
+.tiles__tile-image {
     height: 60px;
 }
 
-.tiles-box-header {
+.tiles__tile-header {
     font-family: var(--font-heading);
     font-size: var(--font-size-medium);
     color: var(--color-white);
